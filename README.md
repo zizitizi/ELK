@@ -62,6 +62,9 @@ Once filebeat is started, it should begin streaming events to Elasticsearch.
 
 7. We can now view the logs on Kibana, in your browser (http://your-kibana-host:5601). When you go to Left Panel πDiscover πfilebeat-*, you should be able to view all the logs, as shown in Figure 2.
 
+![image](https://github.com/zizitizi/ELK/assets/123273835/e70b90f2-660d-4827-9b9c-d445c23378b9)
+
+
 Kibana filebeat ngnix logs
 Figure 2: Kibana filebeat ngnix logs
 This is how you can configure server logs in the ELK Stack. You can also customise the Logstash config to further process these logs.
